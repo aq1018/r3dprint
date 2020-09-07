@@ -1,0 +1,12 @@
+[package]
+name = "r3dprint"
+version = "0.1.0"
+authors = ["aaron"]
+edition = "2018"
+
+[dependencies]
+bytes = "0.5"
+futures = "0.3"
+tokio = { version = "0.2", features = ["full"] }
+tokio-serial = "4.3"
+tokio-util = { version = "0.3", features = ["codec"] }
